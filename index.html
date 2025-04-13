@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faraz - Web Designer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+          <div class="hero-content">
+            <h1>Faraz</h1>
+            <p class="subtitle">Crafting Digital Experiences Since 2017</p>
+            <p class="hero-text">Transforming ideas into elegant, user-centric web solutions</p>
+          </div>
+          <div class="scroll-indicator"></div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="about-content">
+            <div class="about-image">
+              <img src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?auto=format&fit=crop&q=80&w=800" alt="Workspace" />
+            </div>
+            <div class="about-text">
+              <p>Starting my journey in web design at age 9, I've developed a passion for creating elegant digital experiences.</p>
+              <div class="stats">
+                <div class="stat">
+                  <span class="number">9</span>
+                  <span class="label">Started at Age</span>
+                </div>
+                <div class="stat">
+                  <span id="experienceYears" class="number">5+</span>
+                  <span class="label">Years Experience</span>
+                </div>
+                <div class="stat">
+                  <span class="number">3</span>
+                  <span class="label">Projects Completed</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>Featured Projects</h2>
+          <div class="project-grid">
+            <div class="project current-site">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&q=80&w=800" alt="Personal Blog" />
+              </div>
+              <div class="project-content">
+                <h3>Personal Blog Design</h3>
+                <p>You're viewing it right now! A minimalist portfolio showcasing my journey and work.</p>
+                <div class="skill-tags">
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-tag">JavaScript</span>
+                </div>
+                <span class="project-status">Current Site</span>
+              </div>
+            </div>
+            <a href="https://iliyaz.netlify.app" target="_blank" class="project">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=800" alt="Watch Store" />
+              </div>
+              <div class="project-content">
+                <h3>Watch Store Design</h3>
+                <p>E-commerce platform for luxury timepieces with immersive product experiences</p>
+                <div class="skill-tags">
+                  <span class="skill-tag">UI/UX</span>
+                  <span class="skill-tag">Web Design</span>
+                  <span class="skill-tag">E-commerce</span>
+                </div>
+                <span class="project-status">Live Site →</span>
+              </div>
+            </a>
+            <div class="project">
+              <div class="project-image">
+                <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800" alt="Portfolio Template" />
+              </div>
+              <div class="project-content">
+                <h3>Portfolio Template</h3>
+                <p>Modern portfolio template with dark mode and smooth transitions</p>
+                <div class="skill-tags">
+                  <span class="skill-tag">Design</span>
+                  <span class="skill-tag">Animation</span>
+                  <span class="skill-tag">Responsive</span>
+                </div>
+                <span class="project-status">In Progress</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Get in Touch</h2>
+          <p class="contact-intro">Let's create something amazing together</p>
+          <div class="contact-content">
+            <a href="mailto:faraznikdokht@gmail.com" class="contact-button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Send Email
+            </a>
+            <div class="social-links">
+              <a href="https://instagram.com/faraz" target="_blank" class="social-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                Follow on Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://instagram.com/faraz" target="_blank" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+        </div>
+        <p>&copy; 2025 Faraz. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
